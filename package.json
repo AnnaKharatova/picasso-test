@@ -1,8 +1,8 @@
 {
-  "homepage": "https://annakharatova.github.io/picasso-test/",
   "name": "picasso-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://annakharatova.github.io/picasso-test/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",

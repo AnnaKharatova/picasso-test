@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div className='app'>
       <Routes>
-        <Route path="/picasso-test/" Component={PostsList} />
-        <Route path="/picasso-test//post/:id" Component={PostDetails} />
+        <Route path="/" Component={PostsList} />
+        <Route path="/post/:id" Component={PostDetails} />
       </Routes>
     </div>
   );
