@@ -14,7 +14,7 @@ const PostsList = () => {
           <p>Заголовок: {post.title}</p>
           <p>Описание: {post.body.length > 50 ? post.body.slice(0, 50) + '...' : post.body}</p>
           <Link to={`/post/${post.id}`}>
-            <button>Просмотр</button>
+            <button className="app__button">Просмотр</button>
           </Link>
         </div>
       ))}

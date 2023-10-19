@@ -15,11 +15,11 @@ const PostDetails = () => {
       <h1>Полная информация о посте</h1>
       {data && (
         <>
-          <p>Номер: {data.id}</p>
-          <p>Заголовок: {data.title}</p>
-          <p>Описание: {data.body}</p>
+          <p className='app__post-id'>Номер: {data.id}</p>
+          <p className='app__post-title'>Заголовок: {data.title}</p>
+          <p className='app__post-description' >Описание: {data.body}</p>
           <Link to="/">
-            <button onClick={() => dispatch(setSelectedPost(null))}>Назад</button>
+            <button className="app__button" onClick={() => dispatch(setSelectedPost(null))}>Назад</button>
           </Link>
         </>
       )}

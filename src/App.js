@@ -6,7 +6,7 @@ import PostDetails from './posts/PostsDetails';
 
 const App = () => {
   return (
-    <div className='App'>
+    <div className='app'>
       <Routes>
         <Route path="/" Component={PostsList} />
         <Route path="/post/:id" Component={PostDetails} />
